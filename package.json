@@ -1,6 +1,6 @@
 {
   "name": "@norjs/socket-service",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Support files for implementing micro services over UNIX socket",
   "main": "src/index.js",
   "scripts": {
