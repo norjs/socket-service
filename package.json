@@ -1,0 +1,29 @@
+{
+  "name": "@norjs/socket-service",
+  "version": "1.0.5",
+  "description": "Support files for implementing micro services over UNIX socket",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norjs/socket-service.git"
+  },
+  "keywords": [
+    "socket",
+    "unix-socket",
+    "microservice",
+    "service"
+  ],
+  "author": "Jaakko Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/norjs/socket-service/issues"
+  },
+  "homepage": "https://github.com/norjs/socket-service#readme",
+  "dependencies": {
+    "@norjs/utils": "^1.0.4",
+    "lodash": "^4.17.11"
+  }
+}
