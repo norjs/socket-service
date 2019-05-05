@@ -18,6 +18,37 @@ class PathModule {
      */
     dirname (path) {}
 
+    /**
+     *
+     * @param paths {string[]}
+     * @returns {string}
+     */
+    join (...paths) {}
+
+    /**
+     *
+     * @param paths {string[]}
+     * @returns {string}
+     */
+    resolve (...paths) {}
+
+    /**
+     * Path separator, "\\" on Windows, "/" on POSIX.
+     *
+     * @returns {string}
+     */
+    get sep () {
+        return "\\";
+    }
+
+    /**
+     * Path delimiter
+     * @returns {string}
+     */
+    get delimiter () {
+        return ":";
+    }
+
 }
 
 TypeUtils.defineType(

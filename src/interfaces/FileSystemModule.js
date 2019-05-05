@@ -1,4 +1,5 @@
 require('./FileSystemStatsObject.js');
+require('./FileSystemDirectoryEntity.js');
 
 /**
  *
@@ -47,6 +48,36 @@ class FileSystemModule {
      * @param mode {number}
      */
     chmodSync (path, mode) {}
+
+    /**
+     * Read from a file synchronously.
+     *
+     * @param file {string}
+     * @param encoding {string|null}
+     * @param flag {string}
+     * @returns {string|Buffer} If encoding is specified, the function returns `string`.
+     */
+    readFileSync (path, {encoding = null, flag = "r"}) {}
+
+    /**
+     * Write to a file synchronously.
+     *
+     * @param file {string}
+     * @param data {string|Buffer}
+     * @param encoding {string}
+     * @param mode {integer}
+     * @param flag {string}
+     */
+    writeFileSync (file, data, {encoding = 'utf8', mode = 0o666, flag = "w"}) {}
+
+    /**
+     *
+     * @param path {string}
+     * @param encoding {string}
+     * @param withFileTypes {boolean} If `true`, will return FileSystemDirectoryEntity objects
+     * @returns {string[]|FileSystemDirectoryEntity[]}
+     */
+    readdirSync (path, {encoding='utf8', withFileTypes= false}) {}
 
 }
 
