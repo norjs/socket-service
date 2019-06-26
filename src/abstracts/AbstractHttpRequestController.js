@@ -42,6 +42,7 @@ class AbstractHttpRequestController {
         response
     }) {
 
+        // You probably should test at the concrete class, not here.
         TypeUtils.assert(request, "HttpRequestObject");
         TypeUtils.assert(response, "HttpResponseObject");
 
