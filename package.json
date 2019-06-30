@@ -1,6 +1,6 @@
 {
   "name": "@norjs/socket-service",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Support files for implementing micro services over UNIX socket",
   "main": "src/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/norjs/socket-service#readme",
   "dependencies": {
-    "@norjs/utils": "^1.0.8",
+    "@norjs/utils": "^1.0.9",
     "lodash": "^4.17.11"
   }
 }
