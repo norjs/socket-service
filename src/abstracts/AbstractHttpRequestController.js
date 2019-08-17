@@ -1,6 +1,6 @@
 // Interfaces for TypeUtils
-require('../interfaces/HttpRequestObject.js');
-require('../interfaces/HttpResponseObject.js');
+require('@norjs/types/interfaces/HttpRequestObject.js');
+require('@norjs/types/interfaces/HttpResponseObject.js');
 
 /**
  *

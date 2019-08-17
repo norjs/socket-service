@@ -1,11 +1,11 @@
 // Interfaces for TypeUtils
 require('../interfaces/HttpRequestController.js');
-require('../interfaces/HttpRequestObject.js');
-require('../interfaces/HttpResponseObject.js');
-require('../interfaces/HttpServerModule.js');
-require('../interfaces/HttpServerObject.js');
-require('../interfaces/FileSystemModule.js');
-require('../interfaces/PathModule.js');
+require('@norjs/types/interfaces/HttpRequestObject.js');
+require('@norjs/types/interfaces/HttpResponseObject.js');
+require('@norjs/types/interfaces/HttpServerModule.js');
+require('@norjs/types/interfaces/HttpServerObject.js');
+require('@norjs/types/interfaces/FileSystemModule.js');
+require('@norjs/types/interfaces/PathModule.js');
 
 /**
  *
